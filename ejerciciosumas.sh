@@ -8,3 +8,5 @@ read tercernota
 
 suma=$(expr $primernota + $segundanota + $tercernota)
 echo "la suma de notas es:"
+prom=$(expr suma/3)
+echo "el promedio es:"
